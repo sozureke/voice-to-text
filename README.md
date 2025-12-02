@@ -1,6 +1,6 @@
 # Voice to Text
 
-https://github.com/sozureke/voice-to-text/blob/main/assets/demo.mp4
+[![Watch the demo](assets/demo-image.jpg)](https://github.com/sozureke/voice-to-text/blob/main/assets/demo.mp4)
 
 # Setup Guide
 
@@ -35,7 +35,6 @@ This project consists of a Next.js frontend and a Python FastAPI backend.
 
 3. **Set environment variables:**
    ```bash
-	 # In backend folder
    # Required: OpenRouter API key (for summary and structuring)
    export OPENROUTER_API_KEY=your-openrouter-api-key
    
