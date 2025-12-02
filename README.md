@@ -1,4 +1,4 @@
-# Voice to Text
+# Voice to Note Application
 
 [![Watch the demo](assets/demo-image.jpg)](https://github.com/sozureke/voice-to-text/blob/main/assets/demo.mp4)
 
