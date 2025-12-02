@@ -1,3 +1,7 @@
+# Voice to Text
+
+https://github.com/sozureke/voice-to-text/blob/main/assets/demo.mp4
+
 # Setup Guide
 
 This project consists of a Next.js frontend and a Python FastAPI backend.
@@ -31,6 +35,7 @@ This project consists of a Next.js frontend and a Python FastAPI backend.
 
 3. **Set environment variables:**
    ```bash
+	 # In backend folder
    # Required: OpenRouter API key (for summary and structuring)
    export OPENROUTER_API_KEY=your-openrouter-api-key
    
@@ -52,11 +57,6 @@ This project consists of a Next.js frontend and a Python FastAPI backend.
    python main.py
    ```
    
-   Or use the startup script:
-   ```bash
-   ./start.sh
-   ```
-
    The backend will be available at `http://localhost:8000`
 
 ## Frontend Setup
@@ -83,8 +83,6 @@ This project consists of a Next.js frontend and a Python FastAPI backend.
    BACKEND_URL="http://localhost:8000"
    ```
    
-   **Note:** The `OPENROUTER_API_KEY` is now configured in the Python backend environment, not in the Next.js environment.
-
 3. **Set up the database:**
    ```bash
    npm run db:generate
@@ -142,4 +140,3 @@ Whisper model sizes (choose based on your needs):
 - `large`: Best accuracy, slowest (~1550M parameters)
 
 For most use cases, `base` or `small` provides a good balance of speed and accuracy.
-
